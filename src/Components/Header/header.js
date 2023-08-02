@@ -1,8 +1,8 @@
 import { memo } from 'react';
 import Avatar from '../Avatar/avatar';
-import Logo from '../Logo/logo';
-import img from '../Images/image1.jpg';
-import styles from './header.module.css'
+import Logo from '../Logo/Logo';
+import img from '../../Images/image1.jpg';
+import styles from './Header.module.css'
 
 const Header = (props) => {
   return (

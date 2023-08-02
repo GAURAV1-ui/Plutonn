@@ -1,12 +1,14 @@
 import { memo } from 'react';
-import styles from './posts.module.css';
-import Leftsection from './LeftSection/leftsection';
+import styles from './Posts.module.css';
+import Leftsection from './LeftSection/LeftSection';
+import Middlesection from './MiddleSection/middlesection';
 
 const Posts = () => {
   return (
     <>
-        <div>
+        <div className = {styles.posts}>
             <Leftsection/>
+            <Middlesection/>
         </div>
     </> 
   )

@@ -1,0 +1,8 @@
+.profiles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+}

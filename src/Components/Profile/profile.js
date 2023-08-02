@@ -1,8 +1,8 @@
 import { memo } from 'react';
 import Avatar from '../Avatar/avatar';
-import styles from './profile.module.css';
+import styles from './Profile.module.css';
 import Card from '../../UI/Card';
-import img from '../Images/image1.jpg';
+import img from '../../Images/image1.jpg';
 
 const Profile = () => {
   return (
