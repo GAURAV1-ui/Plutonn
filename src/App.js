@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './Components/Header/Header';
-import Posts from './Pages/Home/Posts';
+import Home from './Pages/Home/home';
 
 function App() {
   return (
     <div>
       <Header/>
-      <Posts/>
+      <Home/>
     </div>
   );
 }

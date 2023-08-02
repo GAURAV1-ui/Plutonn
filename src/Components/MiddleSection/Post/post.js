@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import Avatar from '../../../../Components/Avatar/avatar';
+import Avatar from '../../Avatar/avatar';
 import styles from './post.module.css';
 
 const Post = () => {
