@@ -1,0 +1,30 @@
+.profile {
+    text-align: center;
+}
+
+
+.follow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.userName {
+    text-align: center;
+    margin-top: -80px;
+}
+
+.description {
+    text-align: center;
+}
+
+.post {
+    background-color: rgb(236, 156, 156);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+    margin-bottom: -25px;
+}
