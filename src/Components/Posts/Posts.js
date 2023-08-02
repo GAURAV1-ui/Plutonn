@@ -6,7 +6,7 @@ import Post from '../Post/Post';
 
 const Posts = () => {
   return (
-    <div className={styles.Posts}>
+    <div className={styles.Posts}>          
         {PostsData.map((post, id)=>{
             return <Post data={post} id={id}/>
         })}

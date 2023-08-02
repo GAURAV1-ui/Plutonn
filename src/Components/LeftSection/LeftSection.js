@@ -8,15 +8,9 @@ const Leftsection = () => {
   return (
     <>  
       <div className={styles.Leftsection}>
-        <div>
           <Profile/>
-        </div>
-        <div>
           <Navbar/>
-        </div>
-        <div>
           <Follower/>
-        </div>
       </div>
     </>
   )

@@ -1,5 +1,50 @@
-.Post
-{
+.FollowersCard{
+    width: 100%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px; 
+}
+
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follower>div{
+    display: flex;
+    gap: 10px;
+}
+
+
+.followerImage{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.name>span:nth-of-type(2){
+    font-weight: bold;
+}
+
+
+.fc_button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: white;
+}
+.Post{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -19,4 +64,8 @@
     display: flex;
     align-items: flex-start;
     gap: 1.5rem;
+}
+
+.postReact img {
+    width: 5%;
 }

@@ -1,12 +1,18 @@
 import { memo } from 'react';
 import Avatar from '../Avatar/avatar';
 import img from '../../Images/image1.jpg';
+import noti from '../../Images/noti.png';
+import styles from './Logo.module.css';
 
 
 const Logo = () => {
   return (
     <>
+      <div className={styles.noti}>
+        <img src={noti} alt="" style = {{width: "35px", height: "35px", marginTop : "25px",marginRight: "10px"}}/>
         <Avatar img={img}/>
+      </div>
+        
     </>
   )
 }

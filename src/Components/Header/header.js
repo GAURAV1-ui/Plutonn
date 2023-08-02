@@ -17,7 +17,8 @@ const Header = (props) => {
         </div>
             <Logo/>
         </div>
-    </>
+        <hr style={{ width: "1200px"}}/>
+      </>
   )
 }
 
