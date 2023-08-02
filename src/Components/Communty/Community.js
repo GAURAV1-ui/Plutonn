@@ -1,11 +1,9 @@
 import React from 'react'
-import styles from './FollowersCard.module.css'
+import styles from './Community.module.css'
 import { Followers } from '../../Data/FollowersData'
-import Card from '../../UI/Card';
 
-const FollowersCard = () => {
+const Community = () => {
   return (
-    <Card>
     <div className={styles.FollowersCard}>
         {Followers. map((follower, id)=>{
             return(
@@ -13,8 +11,8 @@ const FollowersCard = () => {
                     <div>
                         <img src={follower.img} alt="" className={styles.followerImage} />
                         <div className={styles.name}>
-                            <span>@{follower.username}</span>
                             <span>{follower.name}</span>
+                            <span>{follower.username}</span>
                         </div>
                     </div>
                     <button className={`${styles.button} ${styles.fc_button}`}>
@@ -24,8 +22,7 @@ const FollowersCard = () => {
             )
         })}
     </div>
-    </Card>
   )
 }
 
-export default FollowersCard
+export default Community;
