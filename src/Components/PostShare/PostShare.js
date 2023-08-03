@@ -23,46 +23,9 @@ const PostShare = () => {
   return (
     <div className={styles.PostShare}>
       <img src={ProfileImage} alt="" />
-      <div>
-        <input type="text" placeholder="What's happening" />
-        {/* <div className={styles.postOptions}>
-          <div className={styles.option} style={{ color: "var(--photo)" }}
-          onClick={()=>imageRef.current.click()}
-          >
-            <UilScenery />
-            Photo
-          </div>
-          <div className={styles.option} style={{ color: "var(--video)" }}>
-            <UilPlayCircle />
-            Video
-          </div>{" "}
-          <div className={styles.option} style={{ color: "var(--location)" }}>
-            <UilLocationPoint />
-            Location
-          </div>{" "}
-          <div className={styles.option} style={{ color: "var(--shedule)" }}>
-            <UilSchedule />
-            Shedule
-          </div>
-          <button className={`${styles.button} ${styles.ps_button}`}>Share</button>
-          <div style={{ display: "none" }}>
-            <input
-              type="file"
-              name="myImage"
-              ref={imageRef}
-              onChange={onImageChange}
-            />
-          </div>
-        </div>
-      {image && (
-
-        <div className={styles.previewImage}>
-          <UilTimes onClick={()=>setImage(null)}/>
-          <img src={image.image} alt="" />
-        </div>
-
-      )} */}
-
+      <div className={styles.input}>
+        <textarea placeholder="What is in your mind..." rows="3" cols="110">
+          </textarea>
 
       </div>
     </div>

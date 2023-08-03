@@ -8,16 +8,18 @@ const Header = (props) => {
   return (
     <>
     <div className={styles.header}>
-        <div className={styles.logo}>
+        <span className={styles.logo}>
             <Avatar img = {img}/>
             <h1>Plutonn</h1>
-        </div>
-        <div>
+        </span>
+        <span>
             <h2>Post</h2>
-        </div>
+        </span>
+        <span>
             <Logo/>
+        </span>
         </div>
-        <hr style={{ width: "1200px"}}/>
+        <hr style={{ width: "1300px"}}/>
       </>
   )
 }

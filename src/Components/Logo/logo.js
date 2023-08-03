@@ -9,7 +9,7 @@ const Logo = () => {
   return (
     <>
       <div className={styles.noti}>
-        <img src={noti} alt="" style = {{width: "35px", height: "35px", marginTop : "25px",marginRight: "10px"}}/>
+        <img src={noti} alt="" style = {{width: "20px", height: "28px", marginTop : "25px",marginRight: "10px"}}/>
         <Avatar img={img}/>
       </div>
         
