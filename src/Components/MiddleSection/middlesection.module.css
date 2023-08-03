@@ -1,8 +1,13 @@
+
 .follower{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
+    position: sticky;
+    top: 74px;
+    z-index: 1;
+    background-color: white;
 }
 
 .follower>div{

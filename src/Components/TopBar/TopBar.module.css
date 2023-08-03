@@ -3,6 +3,9 @@
     border: 1px solid rgb(31, 29, 29);
     border-left: 0;
     border-right: 0;
+    position: sticky;
+    top: 122px;
+    z-index: 1;
 }
 
 .topBar a {

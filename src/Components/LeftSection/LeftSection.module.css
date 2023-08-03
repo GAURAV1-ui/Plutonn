@@ -1,6 +1,13 @@
-@media (max-width: 600px){
+#leftSection {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    position: sticky;
+    top:0;
+}
+
+/* @media (max-width: 600px){
     .leftSection {
         display: none;
         }
-    }
+    } */
 

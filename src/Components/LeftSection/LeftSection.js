@@ -7,10 +7,11 @@ import styles from './LeftSection.module.css';
 
 const Leftsection = () => {
 
+  
+
   return (
     <>  
       <div className={styles.leftSection}>
-
           <Profile/>
           <Navbar/>
           <Follower/>

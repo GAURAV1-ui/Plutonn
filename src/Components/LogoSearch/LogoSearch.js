@@ -7,7 +7,6 @@ const LogoSearch = () => {
    <div className={styles.LogoSearch}>
        <div className={styles.Search}>
            <input type="text" placeholder='Search' />
-           
            <div className={styles.s_icon}>
                <UilSearch/>
            </div>

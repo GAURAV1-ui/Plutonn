@@ -12,10 +12,16 @@ const Navbar = () => {
   return (
     <Card>
         <div className={styles.navbar}>
-            <NavLink to = "/" className={styles.list}><img src = {home} alt ="" style = {{width: "15px", height: "15px",marginRight: "5px"}}/>Home</NavLink>
-            <NavLink to = "/community" className={styles.list}><img src = {community} alt ="" style = {{width: "15px", height: "15px",marginRight: "5px"}}/>Community</NavLink>
-            <NavLink to = "/search" className={styles.list}><img src = {search} alt ="" style = {{width: "15px", height: "15px",marginRight: "5px"}}/>Search</NavLink>
-            <NavLink to = "/course" className={styles.list}><img src = {course} alt ="" style = {{width: "15px", height: "15px",marginRight: "5px"}}/>Courses</NavLink>
+            <NavLink to = "/" className={styles.list}>
+              <img src = {home} alt ="" 
+              style = {{width: "18px", height: "18px",marginRight: "5px",marginBottom: "-2px"}}/>
+                Home
+              </NavLink>
+            <NavLink to = "/community" className={styles.list}>
+              <img src = {community} alt ="" style = {{width: "18px", height: "18px",marginRight: "5px",marginBottom: "-2px"}}/>Community</NavLink>
+            <NavLink to = "/search" className={styles.list}>
+              <img src = {search} alt ="" style = {{width: "18px", height: "18px",marginRight: "5px",marginBottom: "-2px"}}/>Search</NavLink>
+            <NavLink to = "/course" className={styles.list}><img src = {course} alt ="" style = {{width: "18px", height: "18px",marginRight: "5px",marginBottom: "-2px"}}/>Courses</NavLink>
         </div>
     </Card>
   )

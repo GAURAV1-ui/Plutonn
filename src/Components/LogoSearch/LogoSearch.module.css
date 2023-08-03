@@ -1,6 +1,6 @@
 .LogoSearch{
     display: flex;
-    
+    overflow: unset;
 }
 
 .Search{
