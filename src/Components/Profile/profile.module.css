@@ -1,8 +1,6 @@
 .profileCard {
     margin-top: 3rem;
-    margin-bottom: 3rem;
-  
-
+    margin-bottom: 3rem; 
 }
 .profile {
     text-align: center;  
@@ -54,7 +52,7 @@
 
 .post button {
     background-color: #F45046;
-    color: aliceblue;
+    color: white;
     padding: 13px 40px;
     border-radius: 10px;
     border: none;

@@ -3,6 +3,7 @@ import Avatar from '../Avatar/avatar';
 import styles from './Profile.module.css';
 import Card from '../../UI/Card';
 import img from '../../Images/image1.jpg';
+import message from '../../Images/message.png';
 
 const Profile = () => {
   return (
@@ -31,7 +32,7 @@ const Profile = () => {
             <span>Share | Connect | Apply.</span>
         </div>
         <div className={styles.post}>
-            <button> Post</button>
+            <button><img src ={message} alt ="" style = {{width: "25px", marginRight: "5px",marginBottom: "-5px", color: "white"}}/>Post</button>
         </div>
     </div>
     </Card>

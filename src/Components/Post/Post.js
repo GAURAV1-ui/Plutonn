@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import React, { memo,useState } from 'react';
 import styles from './Post.module.css'
 import Comment from '../../Images/comment.png';
 import Share from '../../Images/share.png';
@@ -7,13 +7,15 @@ import NotLike from '../../Images/notlike.png';
 import image from '../../Images/profileImg.jpg';
 
 const Post = ({data}) => {
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {setIsReadMore(!isReadMore)};
   return (
     <div className={styles.Post}>
                     <div className={styles.follower}>
                     <div>
                         <img src={image} alt="" className={styles.followerImage} />
                         <div className={styles.name}>
-                            <span>@iamaGaurav</span>
+                            <span>@iamaGaurav •<span style = {{color: "#F45046"}}>27 days ago</span></span>
                             <span>Gaurav</span>
                         </div>
                     </div>
@@ -23,7 +25,13 @@ const Post = ({data}) => {
           </div>
         
         <div className={styles.detail}>
-            <span> {data.desc}</span>
+          <p>  
+          {isReadMore ? data.desc.slice(0, 100): data.desc }
+          {data.desc.length > 150 &&
+          <p onClick={toggleReadMore}>
+          {isReadMore ? '...Read More' : ' ...show less'}
+        </p>
+      }</p>
         </div>
 
         <img src={data.img} alt="" />

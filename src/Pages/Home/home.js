@@ -5,9 +5,10 @@ import Middlesection from '../../Components/MiddleSection/MiddleSection';
 import RightSection from '../../Components/RightSection/RightSection';
 
 const Home = () => {
+
   return (
     <>
-        <div className = {styles.posts}>
+        <div className = {styles.posts}>        
             <LeftSection/>
             <Middlesection/>
             <RightSection/>

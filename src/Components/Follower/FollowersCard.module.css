@@ -1,18 +1,18 @@
 .FollowersCard{
-    width: 300px;
     border-radius: 0.7rem;
     display: flex;
     flex-direction: column;
     font-size: 13px; 
     margin-top: 2rem;
     padding: 1rem 0;
+    width: 280px;
 }
 
 .follower{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 20px;
+    /* padding: 6px 20px; */
 }
 
 .follower>div{

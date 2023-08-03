@@ -4,10 +4,13 @@ import Profile from '../Profile/Profile';
 import Follower from '../Follower/FollowersCard';
 import styles from './LeftSection.module.css';
 
+
 const Leftsection = () => {
+
   return (
     <>  
-      <div className={styles.Leftsection}>
+      <div className={styles.leftSection}>
+
           <Profile/>
           <Navbar/>
           <Follower/>
