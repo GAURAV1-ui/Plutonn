@@ -7,30 +7,33 @@ import img from '../../Images/image1.jpg';
 const Profile = () => {
   return (
     <Card>
+        <div className={styles.profileCard}>
         <div className={styles.profile}>
-        <Avatar img = {img}/>
+            <img src = {img}/>
         </div>
         <div className={styles.follow}>
+            <di className={styles.followers}>
+                <span>27k</span>
+                <span>Followers</span>
+            </di>
             <div className={styles.followers}>
-                <h4>27K</h4>
-                <h5>Followers</h5>
-            </div>
-            <div className={styles.followers}>
-                <h4>76</h4>
-                <h5>Following</h5>
+                <span>76</span>
+                <span>Following</span>
             </div>
         </div>
         <div className={styles.userName}>
-            <h2>ABC User</h2>
-            <p>@abc_plutonn</p>
+            <span>ABC User</span>
+            <span>@abc_plutonn</span>
         </div>
         <div className={styles.description}>
-            <p>Hey!, Welcome to Plutonn</p>
-            <p>Share | Connect | Apply.</p>
+            <span>Hey!, Welcome to Plutonn</span>
+            <br/>
+            <span>Share | Connect | Apply.</span>
         </div>
         <div className={styles.post}>
-            <p>Post</p>
+            <button> Post</button>
         </div>
+    </div>
     </Card>
   )
 }

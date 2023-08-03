@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Community.module.css'
-import { Followers } from '../../Data/FollowersData'
+import { Followers } from '../../Data/FollowersData';
+import  announce  from '../../Images/Announce.png';
 
 const Community = () => {
   return (
@@ -15,9 +16,7 @@ const Community = () => {
                             <span>{follower.username}</span>
                         </div>
                     </div>
-                    <button className={`${styles.button} ${styles.fc_button}`}>
-                        Follow
-                    </button>
+                    <img src ={announce} alt ="announcement" style = {{width: "20px"}}/>
                 </div>
             )
         })}

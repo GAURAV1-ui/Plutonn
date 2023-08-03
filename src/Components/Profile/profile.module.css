@@ -1,30 +1,62 @@
+.profileCard {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+
+}
 .profile {
-    text-align: center;
+    text-align: center;  
 }
 
+.profile img {
+    width: 60px;
+    height: 60px;
+    margin-top: -2rem;
+    border-radius: 50%;
+    padding: 3px;
+    border: 10px solid #F45046;
+}
+
+.followers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 .follow {
     display: flex;
     justify-content: space-around;
 }
+.followers>span:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .userName {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: -80px;
+    margin: 1rem 0;
+}
+.userName>span:nth-of-type(1){
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .description {
     text-align: center;
+    margin: 1rem 0;
 }
 
-.post {
-    background-color: rgb(236, 156, 156);
-    color: white;
-    padding: 5px 20px;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.post{
     text-align: center;
-    width: 100px;
-    margin-bottom: -25px;
+}
+
+.post button {
+    background-color: #F45046;
+    color: aliceblue;
+    padding: 13px 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: -2rem;
 }

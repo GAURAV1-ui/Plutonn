@@ -18,7 +18,7 @@ const Post = ({data}) => {
                         </div>
                     </div>
                     <button className={`${styles.button} ${styles.fc_button}`}>
-                        Follow
+                    <span style={{color: "#F45046", marginRight: "3 px", fontWeight: "800",fontSize: "15px"}}>+</span>Follow
                   </button>
           </div>
         

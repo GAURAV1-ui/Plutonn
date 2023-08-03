@@ -7,7 +7,7 @@ import TopBar from '../TopBar/TopBar';
 const MiddleSection = () => {
   return (
     <>
-   <div className={styles.MiddleSection}>
+   <div className={styles.middleSection}>
       <div className={styles.follower}>
                     <div>
                         <img src={image} alt="" className={styles.followerImage} />

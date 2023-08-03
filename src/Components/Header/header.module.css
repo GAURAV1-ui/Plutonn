@@ -1,10 +1,16 @@
+.headers {
+    position: sticky;
+    top:0;
+    margin: auto;
+    background-color: white;
+    max-width: 1300px;
+    margin-bottom: 2rem;
+}
 .header {
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
-    margin: auto;
-    margin-top: -14px;
     height: 65px;
+    margin-top: -2rem;
 }
 
 .logo {

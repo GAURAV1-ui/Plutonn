@@ -7,6 +7,7 @@ import styles from './Header.module.css'
 const Header = (props) => {
   return (
     <>
+    <div className={styles.headers}>
     <div className={styles.header}>
         <span className={styles.logo}>
             <Avatar img = {img}/>
@@ -19,7 +20,8 @@ const Header = (props) => {
             <Logo/>
         </span>
         </div>
-        <hr style={{ width: "1300px"}}/>
+        <hr/>
+        </div>
       </>
   )
 }

@@ -1,4 +1,7 @@
 
+.middleSection {
+    width: 45%;
+}
 .follower{
     display: flex;
     justify-content: space-between;
