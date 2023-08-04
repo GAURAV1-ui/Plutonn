@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import Avatar from '../Avatar/avatar';
 import img from '../../Images/image1.jpg';
-import styles from './Headers.module.css'
+import styles from './headers.module.css'
 import Logos from '../Logo/logos';
 
 const Header = (props) => {

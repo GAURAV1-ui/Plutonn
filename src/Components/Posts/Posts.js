@@ -1,7 +1,7 @@
 import { memo } from 'react'
 import './posts.module.css';
 import { PostsData } from '../../Data/PostsData';
-import styles from './Posts.module.css';
+import styles from './posts.module.css';
 import Post from '../Post/post';
 
 const Posts = () => {

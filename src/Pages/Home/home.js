@@ -1,8 +1,8 @@
 import { memo } from 'react';
 import styles from './home.module.css';
-import LeftSection from '../../Components/LeftSection/LeftSection';
-import Middlesection from '../../Components/MiddleSection/MiddleSection';
-import RightSection from '../../Components/RightSection/RightSection';
+import LeftSection from '../../Components/LeftSection/leftSection';
+import Middlesection from '../../Components/MiddleSection/middleSection';
+import RightSection from '../../Components/RightSection/rightSection';
 
 const Home = () => {
 
