@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './TopBar.module.css';
+import styles from './topBar.module.css';
 import { NavLink } from 'react-router-dom';
 
 const TopBar = () => {

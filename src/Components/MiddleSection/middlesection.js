@@ -1,9 +1,9 @@
 import React from 'react'
-import Posts from '../Posts/Posts'
-import PostShare from '../PostShare/PostShare'
-import styles from './MiddleSection.module.css';
+import Posts from '../Posts/posts'
+import PostShare from '../PostShare/postShare'
+import styles from './middleSection.module.css';
 import image from '../../Images/image1.jpg';
-import TopBar from '../TopBar/TopBar';
+import TopBar from '../TopBar/topBar';
 const MiddleSection = () => {
   return (
     <>

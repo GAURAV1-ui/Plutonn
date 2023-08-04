@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import styles from './FollowersCard.module.css'
+import styles from './followersCard.module.css'
 import { Followers } from '../../Data/FollowersData'
 import Card from '../../UI/Card';
 

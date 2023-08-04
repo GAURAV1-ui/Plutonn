@@ -1,5 +1,5 @@
 import React, { memo,useState } from 'react';
-import styles from './Post.module.css'
+import styles from './post.module.css'
 import Comment from '../../Images/comment.png';
 import Share from '../../Images/share.png';
 import Like from '../../Images/like.png';

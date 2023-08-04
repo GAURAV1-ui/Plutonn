@@ -1,8 +1,8 @@
 import { memo } from 'react';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar/navbar';
 import Profile from '../Profile/Profile';
 import Follower from '../Follower/FollowersCard';
-import styles from './LeftSection.module.css';
+import styles from './leftSection.module.css';
 
 
 const Leftsection = () => {

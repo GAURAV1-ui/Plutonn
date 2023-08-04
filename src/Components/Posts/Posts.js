@@ -1,8 +1,8 @@
 import { memo } from 'react'
-import './Posts.module.css';
+import './posts.module.css';
 import { PostsData } from '../../Data/PostsData';
 import styles from './Posts.module.css';
-import Post from '../Post/Post';
+import Post from '../Post/post';
 
 const Posts = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoSearch from '../LogoSearch/LogoSearch';
 import Community from '../Communty/Community';
-import styles from './RightSide.module.css';
+import styles from './rightSide.module.css';
 
 const RightSection = () => {
   return (

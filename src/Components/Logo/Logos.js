@@ -2,7 +2,7 @@ import { memo } from 'react';
 import Avatar from '../Avatar/avatar';
 import img from '../../Images/image1.jpg';
 import noti from '../../Images/noti.png';
-import styles from './Logo.module.css';
+import styles from './logo.module.css';
 
 
 const Logos = () => {

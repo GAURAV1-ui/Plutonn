@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import Card from '../../UI/Card';
-import styles from './Navbar.module.css';
+import styles from './navbar.module.css';
 import { NavLink } from 'react-router-dom';
 import home from "../../Images/home.png";
 import search from '../../Images/search.png';
