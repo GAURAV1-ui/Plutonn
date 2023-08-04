@@ -2,7 +2,7 @@ import { memo } from 'react';
 import Avatar from '../Avatar/avatar';
 import Logo from '../Logo/Logo';
 import img from '../../Images/image1.jpg';
-import styles from './Header.module.css'
+import styles from './Headers.module.css'
 
 const Header = (props) => {
   return (
