@@ -1,8 +1,8 @@
 import { memo } from 'react';
 import Avatar from '../Avatar/avatar';
-import Logo from '../Logo/Logo';
 import img from '../../Images/image1.jpg';
 import styles from './Headers.module.css'
+import Logos from '../Logo/Logos';
 
 const Header = (props) => {
   return (
@@ -17,7 +17,7 @@ const Header = (props) => {
             <h2>Post</h2>
         </span>
         <span>
-            <Logo/>
+            <Logos/>
         </span>
         </div>
         <hr/>

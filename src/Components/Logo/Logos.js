@@ -5,7 +5,7 @@ import noti from '../../Images/noti.png';
 import styles from './Logo.module.css';
 
 
-const Logo = () => {
+const Logos = () => {
   return (
     <>
       <div className={styles.noti}>
@@ -17,4 +17,4 @@ const Logo = () => {
   )
 }
 
-export default Logo;
+export default memo(Logos);
