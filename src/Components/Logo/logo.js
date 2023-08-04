@@ -17,4 +17,4 @@ const Logo = () => {
   )
 }
 
-export default memo(Logo);
+export default Logo;
